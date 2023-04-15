@@ -1,0 +1,38 @@
+{
+  "author": {
+    "email": "bartlomiej_was@onet.pl",
+    "name": "Bartłomiej 'Trez' Wąś",
+    "url": "https://was.org.pl/"
+  },
+  "bugs": {
+    "email": "kt.bugs@onet.pl",
+    "url": ""
+  },
+  "config": {},
+  "description": "Template for basic Node.js projects.",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.3"
+  },
+  "keywords": [
+    "node.js",
+    "template",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "node.ts",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "start": "node dist/index.js",
+    "start-watch": "nodemon"
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,8 @@
+# dependenceis
+/node_modules
+
+# dist
+/dist
+
+# editors
+/.idea
